@@ -1,0 +1,25 @@
+{
+  "name": "api-project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon ./src/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jameslevine/node-API-project.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jameslevine/node-API-project/issues"
+  },
+  "homepage": "https://github.com/jameslevine/node-API-project#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "nodemon": "^1.18.10",
+    "tape": "^4.10.1"
+  }
+}
