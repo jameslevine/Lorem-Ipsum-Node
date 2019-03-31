@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="shortcut icon" href="./assets/favicon.ico" type="image/x-icon">
+  <link rel="icon" href="./assets/favicon.ico" type="image/x-icon">
+  <title>Node API Project</title>
+  <link rel="stylesheet" href="./public/style.css">
+</head>
+<body>
+  <h1>Node Alternative Lorem Ipsum Generator</h1>
+  <h2>How many paragraphs would you like?</h2>
+  <select id="paragraph">
+    <option value="Select Paragraphs:">Select Paragraphs:</option>
+    <option value="0">0</option>
+    <option value="1">1</option>
+    <option value="2">2</option>
+    <option value="3">3</option>
+    <option value="4">4</option>
+    <option value="5">5</option>
+  </select>
+  <h2>How many sentences would you like?</h2>
+  <select id="sentence">
+    <option value="Select Sentences:">Select Sentences:</option>
+    <option value="0">0</option>
+    <option value="1">1</option>
+    <option value="2">2</option>
+    <option value="3">3</option>
+    <option value="4">4</option>
+    <option value="5">5</option>
+  </select>
+  <h3>-</h3>
+  <button type="button" name="button" onclick="paragraphFunc()">Generate</button>
+  <h3>-</h3>
+  <span id="lorem-text"></span>
+  <script src="public/dom.js"></script>
+</body>
+</html>
